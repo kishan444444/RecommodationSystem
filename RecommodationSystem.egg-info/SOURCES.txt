@@ -1,0 +1,9 @@
+setup.py
+COMPOUNENTS/__init__.py
+COMPOUNENTS/data_ingestion.py
+COMPOUNENTS/data_transformation.py
+COMPOUNENTS/model_trainer.py
+RecommodationSystem.egg-info/PKG-INFO
+RecommodationSystem.egg-info/SOURCES.txt
+RecommodationSystem.egg-info/dependency_links.txt
+RecommodationSystem.egg-info/top_level.txt

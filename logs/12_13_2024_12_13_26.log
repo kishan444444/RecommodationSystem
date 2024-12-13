@@ -1,0 +1,10 @@
+[2024-12-13 12:13:26,527] 20 root - INFO - Data ingestion started
+[2024-12-13 12:13:26,527] 38 root - INFO - Fetching data from https://api.socialverseapp.com/posts/view?page=1&page_size=1000&resonance_algorithm=resonance_algorithm_cjsvervb7dbhss8bdrj89s44jfjdbsjd0xnjkbvuire8zcjwerui3njfbvsujc5if
+[2024-12-13 12:13:29,185] 38 root - INFO - Fetching data from https://api.socialverseapp.com/posts/like?page=1&page_size=1000&resonance_algorithm=resonance_algorithm_cjsvervb7dbhss8bdrj89s44jfjdbsjd0xnjkbvuire8zcjwerui3njfbvsujc5if
+[2024-12-13 12:13:30,942] 38 root - INFO - Fetching data from https://api.socialverseapp.com/posts/inspire?page=1&page_size=1000&resonance_algorithm=resonance_algorithm_cjsvervb7dbhss8bdrj89s44jfjdbsjd0xnjkbvuire8zcjwerui3njfbvsujc5if
+[2024-12-13 12:13:33,515] 38 root - INFO - Fetching data from https://api.socialverseapp.com/posts/rating?page=1&page_size=1000&resonance_algorithm=resonance_algorithm_cjsvervb7dbhss8bdrj89s44jfjdbsjd0xnjkbvuire8zcjwerui3njfbvsujc5if
+[2024-12-13 12:13:36,148] 38 root - INFO - Fetching data from https://api.socialverseapp.com/posts/summary/get?page=1&page_size=1000
+[2024-12-13 12:13:41,823] 38 root - INFO - Fetching data from https://api.socialverseapp.com/users/get_all?page=1&page_size=1000
+[2024-12-13 12:13:44,818] 102 root - INFO - Data ingestion process completed successfully
+[2024-12-13 12:13:44,865] 30 root - INFO - read engagement data completed
+[2024-12-13 12:13:44,880] 64 root - INFO - Exception occured in initiating data transformation

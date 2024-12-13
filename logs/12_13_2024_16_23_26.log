@@ -1,0 +1,17 @@
+[2024-12-13 16:23:29,173] 20 root - INFO - Data ingestion started
+[2024-12-13 16:23:29,174] 38 root - INFO - Fetching data from https://api.socialverseapp.com/posts/view?page=1&page_size=1000&resonance_algorithm=resonance_algorithm_cjsvervb7dbhss8bdrj89s44jfjdbsjd0xnjkbvuire8zcjwerui3njfbvsujc5if
+[2024-12-13 16:23:30,819] 38 root - INFO - Fetching data from https://api.socialverseapp.com/posts/like?page=1&page_size=1000&resonance_algorithm=resonance_algorithm_cjsvervb7dbhss8bdrj89s44jfjdbsjd0xnjkbvuire8zcjwerui3njfbvsujc5if
+[2024-12-13 16:23:33,137] 38 root - INFO - Fetching data from https://api.socialverseapp.com/posts/inspire?page=1&page_size=1000&resonance_algorithm=resonance_algorithm_cjsvervb7dbhss8bdrj89s44jfjdbsjd0xnjkbvuire8zcjwerui3njfbvsujc5if
+[2024-12-13 16:23:34,468] 38 root - INFO - Fetching data from https://api.socialverseapp.com/posts/rating?page=1&page_size=1000&resonance_algorithm=resonance_algorithm_cjsvervb7dbhss8bdrj89s44jfjdbsjd0xnjkbvuire8zcjwerui3njfbvsujc5if
+[2024-12-13 16:23:35,838] 38 root - INFO - Fetching data from https://api.socialverseapp.com/posts/summary/get?page=1&page_size=1000
+[2024-12-13 16:23:40,145] 38 root - INFO - Fetching data from https://api.socialverseapp.com/users/get_all?page=1&page_size=1000
+[2024-12-13 16:23:42,106] 102 root - INFO - Data ingestion process completed successfully
+[2024-12-13 16:23:42,139] 30 root - INFO - read engagement data completed
+[2024-12-13 16:23:42,155] 52 root - INFO - Applying preprocessing object datasets.
+[2024-12-13 16:23:42,188] 57 root - INFO - Data preprocessing process completed successfully
+[2024-12-13 16:23:42,188] 110 root - ERROR - Exception occurred in initiating model training
+Traceback (most recent call last):
+  File "F:\my project\RecommodationSystem\RECOMMODATIONSYSTEM\COMPOUNENTS\model_trainer.py", line 25, in initiate_model_training
+    if 'title' not in df.columns:
+                      ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'columns'
